@@ -3,8 +3,11 @@ import axios from "axios";
 import "./Weather.css";
 
 export default function Weather(props) {
+  // eslint-disable-next-line
   const [ready, setReady] = useState(false);
+  // eslint-disable-next-line
   const [temperature, setTemperature] = useState(null);
+  // eslint-disable-next-line
   const [weatherData, setWeatherData] = useState({ ready: false });
 
   function handleResponse(response) {
