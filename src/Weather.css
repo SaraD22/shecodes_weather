@@ -11,13 +11,10 @@
   margin-bottom: 20px;
 }
 
-.Weather img {
+.Weather canvas {
   display: inline-block;
-  height: 64px;
-  width: 64px;
-  margin-top: unset;
+  margin-top: 5px;
   vertical-align: top;
-  width: 60px;
   margin-right: 10px;
 }
 
